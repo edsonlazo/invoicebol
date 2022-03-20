@@ -1,0 +1,32 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+#vs code
+/.vscode
+#builds
+/build
+
+#files
+/uploads/*
+
+# dependencies
+/node_modules
+**/node_modules
+
+# ignore logs
+logs
+*.log
+
+# ignore key
+*.pem
+
+# Ignore built files
+dist
+
+# ignore test converage
+coverage
+
+# Environment varibles
+*.env
+*.env.*
+
+# nvm version
+*.nvmrc
